@@ -113,6 +113,6 @@ def get_nearest_1k(day: int):
 @app.route('/giveup/<int:day>')
 def give_up(day: int):
     if day not in app.secrets:
-        return 'Rick Astley would be disappointed', 404
+        return 'Rick Astley would never give you up.', 404
     else:
         return app.secrets[day]
