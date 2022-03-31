@@ -29,3 +29,17 @@ python process_vecs.py
 ```bash
 python generate_secrets.py
 ```
+
+start flask/gunicorn (on ssh)
+```bash
+export FLASK_APP=semantle
+nohup gunicorn semantle:app &
+```
+
+restart after pull
+```bash
+ps aux | grep gunicorn
+kill -HUP <guniconr pid>
+```
+
+nginx...

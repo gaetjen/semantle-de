@@ -37,23 +37,27 @@
         <div class="dialog-content" id="rules-content">
             <h3 id="rules-heading">Errate das geheime Lösungswort</h3>
             <p>
-                Gebe einzelne Wörter ein (Bindestriche und Punkte sind erlaubt) und erhalte Information zur semantischen
-                Ähnlichkeit zum gesuchten Wort. Es wird zum einen die Ähnlichkeit auf einer Skala von -100 bis +100
-                angegeben (wobei Werte unter 0 eher selten sind), und falls das geratene Wort unter den 1000 ähnlichsten
-                Wörtern ist wird der Rang angezeigt.
+                Gebe einzelne Wörter ein (Bindestriche und Punkte sind erlaubt) und erhalte Information zur
+                Ähnlichkeit zum gesuchten Wort. Hierbei kommt es nicht wie bei vielen anderen Spielen auf die
+                Schreibweise an, sondern auf die Bedeutung und den Kontext in dem es benutzt wird. Es wird zum einen
+                die Ähnlichkeit auf einer Skala von -100 bis +100 angegeben (wobei Werte unter 0 eher selten sind), und
+                falls das geratene Wort unter den 1000 ähnlichsten Wörtern ist wird der Rang angezeigt.
             </p>
             <p>
                 Groß- und Kleinschreibung werden berücksichtigt! "Der Anstieg" ist etwas anderes als wenn "die
                 Temperatur anstieg". Das Lösungswort ist immer <b>ohne</b> Bindestrich (wie Rheinland-Pfalz) oder
                 Akzente (wie Café) und ist in der grammatikalischen Grundform (z.B. ist "sprichst" kein mögliches
-                Lösungswort).
+                Lösungswort). Anders als sonst oft bei Wortratespielen kann das Lösungswort nicht nur ein Nomen,
+                sondern <b>eine beliebige Wortform</b> sein, also z.B. Verben, Adjektive oder sogar Konjunktionen.
             </p>
             <p>
                 Immer um 0:00 Uhr UTC, <span id="localtime"></span>, gibt es ein neues Lösungswort. <span
                     id="yesterday"></span>
             </p>
             <p>
-                Diese Seite verwendet Cookies um Einstellungen und den Spielfortschritt und <nobr>-statistiken</nobr> zu speichern.
+                Diese Seite verwendet Cookies um Einstellungen und den Spielfortschritt und
+                <nobr>-statistiken</nobr>
+                zu speichern.
             </p>
         </div>
     </div>
@@ -128,6 +132,22 @@
     <p><b>Was war das Lösungswort gestern?</b></p>
     <p>
         <span id="yesterday2"></span>
+    </p>
+
+    <p><b>Was bedeutet es eigentlich, wenn zwei Wörter "ähnlich" zueinander sind?</b></p>
+    <p>
+        Sogenannte "word embeddings" bilden die Grundlage für die Ähnlichkeiten .
+        Dabei wird jedes Wort statt mit Buchstaben durch eine Reihe an 300 Zahlen repräsentiert. Diese Zahlenreihen
+        ergeben Vektoren (quasi ein Punkt in einem Koordinatensystem mit 300 Achsen), mit denen man rechnen kann und
+        z.B. Distanzen und Winkel bestimmen kann. Die Vektoren werden nach und nach angepasst mit dem Ziel möglichst gut
+        <i>fehlende Wörter aus den umgebenden Wörtern zu rekonstruieren</i>. Entscheidend ist, dass die Vektoren sich
+        letztendlich daraus ergeben mit welchen anderen Wörtern ein Wort zusammen auftritt.
+        <br/>
+        Der Ähnlichkeitswert ergibt sich dann aus dem Winkel zwischen zwei Wortvektoren. Je kleiner der Winkel, desto
+        näher an 100 ist die Ähnlichkeit. Winkel über 90 Grad ergebn eine negative Ähnlichkeit. Eine Ähnlichkeit von 0
+        bedeutet die Vektoren stehen im rechten Winkel zueinander. Oder auch kurz mathematisch ausgedrückt: Der
+        Ähnlichkeitswert ist die Kosinusähnlichkeit zwischen den Einbettungen der beiden Wörter in einen
+        300-dimensionalen Vektorraum, um den Faktor 100 skaliert.
     </p>
 
     <p><b>Ist die deutsche Version schwieriger als die englische?</b></p>
