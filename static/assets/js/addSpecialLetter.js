@@ -1,3 +1,5 @@
 function addLetter(l) {
-    document.getElementById("guess").value += l
+    let guessBox = document.getElementById("guess");
+    guessBox.value += l;
+    guessBox.focus();
 }
