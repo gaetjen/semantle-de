@@ -311,6 +311,7 @@ ${(similarityStory.rest * 100).toFixed(2)}.
                     guessed.add(secret);
                     guessCount += 1;
                     const newEntry = [100, secret, 'Das Lösungswort', guessCount];
+                    cache[secret] = {"guess": secret, "rank": "Das Lösungswort", "sim": 1};
                     guesses.push(newEntry);
                     guesses.sort(function(a, b){return b[0]-a[0]});
                     updateGuesses(guess);
