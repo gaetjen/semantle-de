@@ -5,7 +5,7 @@ from process_vecs import only_normal_letters
 
 rnd = Random(133742069)
 
-early_solutions = ['eineinhalb', 'vereinbarung', 'aufeinander', 'anstieg', 'nunmehr']
+early_solutions = ['eineinhalb', 'Vereinbarung', 'aufeinander', 'Anstieg', 'nunmehr']
 
 if __name__ == '__main__':
     with open('data/frequent_words.txt', 'r', encoding='UTF-8') as f:
