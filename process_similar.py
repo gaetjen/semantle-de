@@ -17,7 +17,7 @@ def dump_nearest(puzzle_num: int, word: str, words: List[str], mat: array, k: in
         -> Dict[str, Tuple[str, float]]:
     # remove words that contain the solution itself (compounds and declination) from the top 1k
     ok_idxs = np.array(
-        [idx for idx, w in enumerate(words) if len(word) >= 7 or word == w or word.lower() not in w.lower()])
+        [idx for idx, w in enumerate(words) if len(word) < 7 or word == w or word.lower() not in w.lower()])
     words_a = np.array(words)[ok_idxs]
     word_idx = np.nonzero(words_a == word)[0][0]
     sim_idxs, sim_dists = most_similar(mat[ok_idxs], word_idx, k + 1)
