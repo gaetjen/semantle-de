@@ -41,7 +41,7 @@ if __name__ == '__main__':
     normal_words = load_dic('data/de.dic', True)
     print("# words in dictionary:", len(normal_words))
     valid_nearest = []
-    valid_nearest_mat = None
+    valid_nearest_mat = []
     eliminated = 0
     with open('data/cc.de.300.vec', 'r', encoding='utf-8') as w2v_file:
         _ = w2v_file.readline()
@@ -53,10 +53,7 @@ if __name__ == '__main__':
             vec = array([float(w1) for w1 in words[1:]])
             if word in normal_words:
                 valid_nearest.append(word)
-                if valid_nearest_mat is None:
-                    valid_nearest_mat = [vec]
-                else:
-                    valid_nearest_mat.append(vec)
+                valid_nearest_mat.append(vec)
             if valid_guess(word):
                 cursor.execute("""INSERT INTO guesses values (?, ?)""", (word, pickle.dumps(vec)))
             else:

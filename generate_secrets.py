@@ -5,7 +5,9 @@ from process_vecs import only_normal_letters
 
 rnd = Random(133742069)
 
-early_solutions = ['eineinhalb', 'Vereinbarung', 'aufeinander', 'Anstieg', 'nunmehr']
+early_solutions = ['eineinhalb', 'vereinbarung', 'aufeinander', 'anstieg', 'nunmehr']
+april_fools = ['CD']
+april_first_idxs = [14 + 365, 14 + 365 + 366]
 
 if __name__ == '__main__':
     with open('data/frequent_words.txt', 'r', encoding='UTF-8') as f:
@@ -27,6 +29,9 @@ if __name__ == '__main__':
     valid_nearest_words = set(valid_nearest_words)
     shuffle_list = [w for w in shuffle_list if w in valid_nearest_words]
     shuffle_list = early_solutions + shuffle_list
+    for word, idx in zip(april_fools, april_first_idxs):
+        og_idx = shuffle_list.index(word)
+        shuffle_list[og_idx], shuffle_list[idx] = shuffle_list[idx], shuffle_list[og_idx]
     print('# words:', len(shuffle_list))
     with open('data/secrets.txt', 'w', encoding='utf-8') as f:
         f.write('\n'.join(shuffle_list))
