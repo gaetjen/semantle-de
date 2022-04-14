@@ -46,9 +46,10 @@
             <p>
                 <b>Groß- und Kleinschreibung werden berücksichtigt!</b> "Der Anstieg" ist etwas anderes als wenn "die
                 Temperatur anstieg". Das Lösungswort ist immer <b>ohne</b> Bindestrich (wie Rheinland-Pfalz) oder
-                Akzente (wie Café) und ist in der grammatikalischen Grundform (z.B. ist "sprichst" kein mögliches
-                Lösungswort). Anders als sonst oft bei Wortratespielen kann das Lösungswort nicht nur ein Nomen,
-                sondern <b>eine beliebige Wortart</b> sein, also z.B. Verben, Adjektive oder sogar Konjunktionen.
+                Akzente (wie Café) und ist bis auf wenige Ausnahmen in der grammatikalischen Grundform (z.B. ist
+                "sprichst" kein mögliches Lösungswort). Anders als sonst oft bei Wortratespielen kann das Lösungswort
+                nicht nur ein Nomen, sondern <b>eine beliebige Wortart</b> sein, also z.B. Verben, Adjektive oder sogar
+                Konjunktionen.
             </p>
             <p>
                 Immer um 0:00 Uhr UTC, <span id="localtime"></span>, gibt es ein neues Lösungswort. <span
@@ -140,24 +141,24 @@
         verwendet werden, wobei der Kontext sich wiederum aus den verwendeten Wörtern ergibt. Anders gesehen ist die
         Ähnlichkeit umso höher, je einfacher es ist in einem Satz das eine Wort durch das anderes zu ersetzen.
         Konkret gibt es ein paar grobe Faustregeln: Wörter haben eher eine höhere Ähnlichkeit wenn sie...
-        <ul>
-            <li>Synonyme sind,</li>
-            <li>Gegensätze sind,</li>
-            <li>die Wortart und -form indentisch sind,</li>
-            <li>oder wenn sie thematisch verwandt sind.</li>
-        </ul>
-        Die mathematische Grundlage für die Ähnlichkeiten bilden sogenannte <a
-            href="https://de.wikipedia.org/wiki/Worteinbettung">"word embeddings"</a>. Dabei wird jedes Wort statt mit
-        Buchstaben durch 300 Zahlen repräsentiert. Diese Zahlen ergeben Vektoren (quasi ein Punkt in
-        einem Koordinatensystem mit 300 Achsen), mit denen man rechnen kann und z.B. Distanzen und Winkel bestimmen
-        kann. Die Vektoren werden nach und nach angepasst mit dem Ziel möglichst gut in Sätzen fehlende Wörter aus den
-        umgebenden Wörtern zu rekonstruieren.
-        <br/>
-        Der Ähnlichkeitswert ergibt sich dann aus dem Winkel zwischen zwei Wortvektoren. Je kleiner der Winkel, desto
-        näher an 100 ist die Ähnlichkeit. Eine Ähnlichkeit von 0 bedeutet die Vektoren stehen im rechten Winkel
-        zueinander. Winkel über 90 Grad ergeben eine negative Ähnlichkeit. Oder auch kurz mathematisch ausgedrückt: Der
-        Ähnlichkeitswert ist die Kosinusähnlichkeit zwischen den Einbettungen der beiden Wörter in einen
-        300-dimensionalen Vektorraum, um den Faktor 100 skaliert.
+    <ul>
+        <li>Synonyme sind,</li>
+        <li>Gegensätze sind,</li>
+        <li>die Wortart und -form indentisch sind,</li>
+        <li>oder wenn sie thematisch verwandt sind.</li>
+    </ul>
+    Die mathematische Grundlage für die Ähnlichkeiten bilden sogenannte <a
+        href="https://de.wikipedia.org/wiki/Worteinbettung">"word embeddings"</a>. Dabei wird jedes Wort statt mit
+    Buchstaben durch 300 Zahlen repräsentiert. Diese Zahlen ergeben Vektoren (quasi ein Punkt in
+    einem Koordinatensystem mit 300 Achsen), mit denen man rechnen kann und z.B. Distanzen und Winkel bestimmen
+    kann. Die Vektoren werden nach und nach angepasst mit dem Ziel möglichst gut in Sätzen fehlende Wörter aus den
+    umgebenden Wörtern zu rekonstruieren.
+    <br/>
+    Der Ähnlichkeitswert ergibt sich dann aus dem Winkel zwischen zwei Wortvektoren. Je kleiner der Winkel, desto
+    näher an 100 ist die Ähnlichkeit. Eine Ähnlichkeit von 0 bedeutet die Vektoren stehen im rechten Winkel
+    zueinander. Winkel über 90 Grad ergeben eine negative Ähnlichkeit. Oder auch kurz mathematisch ausgedrückt: Der
+    Ähnlichkeitswert ist die Kosinusähnlichkeit zwischen den Einbettungen der beiden Wörter in einen
+    300-dimensionalen Vektorraum, um den Faktor 100 skaliert.
     </p>
 
     <p><b>Was beudeuten die "????" im Ähnlichkeitsrang?</b></p>
