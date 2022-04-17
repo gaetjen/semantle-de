@@ -1,6 +1,8 @@
 import pickle
 from itertools import count
 from random import Random
+import json
+from typing import Dict
 
 from process_vecs import only_normal_letters
 
@@ -8,6 +10,9 @@ rnd = Random(133742069)
 
 early_solutions = ['eineinhalb', 'vereinbarung', 'aufeinander', 'anstieg', 'nunmehr']
 april_fools = ['CD', 'tja', 'oh', 'GmbH', 'ach', 'aha', 'PC', 'äh', 'FIFA', 'au', 'NATO', 'na', 'ah']
+
+with open('data/male_to_female.json', 'r', encoding='UTF-8') as f:
+    male_to_female: Dict[str, str] = json.load(f)
 
 
 def april_first_idxs():
@@ -44,5 +49,8 @@ if __name__ == '__main__':
         og_idx = shuffle_list.index(word)
         shuffle_list[og_idx], shuffle_list[idx] = shuffle_list[idx], shuffle_list[og_idx]
     print('# words:', len(shuffle_list))
+    for k, v in male_to_female.items():
+        if rnd.randint(0, 1) == 0:
+            shuffle_list[shuffle_list.index(k)] = v
     with open('data/secrets.txt', 'w', encoding='utf-8') as f:
         f.write('\n'.join(shuffle_list))

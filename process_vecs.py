@@ -33,7 +33,15 @@ def load_dic(path: str, allow_capitalization: bool = False) -> Set[str]:
                 rtn.add(word)
     # april fools and early guesses
     extras = ['vereinbarung', 'aha', 'tja', 'ah', 'äh']
+    gendered = ['Investorin', 'Priesterin', 'Staatsanwältin', 'Empfängerin', 'Asylbewerberin', 'Probandin',
+                'Regierungschefin', 'Soldatin', 'Demonstrantin', 'Idiotin', 'Syrerin', 'Benutzerin', 'Innenministerin',
+                'Verbraucherin', 'Generalin', 'Dienerin', 'Autofahrerin', 'Ökonomin', 'Anwältin', 'Kanzlerin',
+                'Vizepräsidentin', 'Ministerpräsidentin', 'Urlauberin', 'Rentnerin', 'Republikanerin', 'Römerin',
+                'Päpstin', 'Verkäuferin', 'Philosophin', 'Kandidatin', 'Pariserin', 'Bundeskanzlerin', 'Komponistin',
+                'Sponsorin', 'Anwohnerin', 'Oberbürgermeisterin', 'Gästin', 'Finanzministerin', 'Muslimin',
+                'Protagonistin']
     rtn.update(extras)
+    rtn.update(gendered)
     return rtn
 
 
