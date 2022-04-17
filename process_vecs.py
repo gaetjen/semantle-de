@@ -1,5 +1,6 @@
 import pickle
 import sqlite3
+import sys
 from typing import Set
 
 import numpy as np
@@ -13,7 +14,7 @@ def valid_guess(s: str) -> bool:
         return False
 
 
-def only_normal_letters(word: str, allow_capitalization:bool = False) -> bool:
+def only_normal_letters(word: str, allow_capitalization: bool = False) -> bool:
     lowers = set(c for c in 'abcdefghijklmnopqrstuvwxyzäöǘß')
     uppers = set(c for c in 'ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜẞ')
     both = lowers.union(uppers)
@@ -29,11 +30,17 @@ def load_dic(path: str, allow_capitalization: bool = False) -> Set[str]:
         for line in f.readlines():
             word = line.strip()
             if only_normal_letters(word, allow_capitalization):
-               rtn.add(word)
+                rtn.add(word)
+    # april fools and early guesses
+    extras = ['vereinbarung', 'aha', 'tja', 'ah', 'äh']
+    rtn.update(extras)
     return rtn
 
 
 if __name__ == '__main__':
+    skip_db = len(sys.argv) > 1 and sys.argv[1] == '-s'
+    if skip_db:
+        print('skipping db writing')
     connection = sqlite3.connect('data/valid_guesses.db')
     cursor = connection.cursor()
     cursor.execute("""CREATE TABLE IF NOT EXISTS guesses (word text PRIMARY KEY, vec blob)""")
@@ -54,7 +61,7 @@ if __name__ == '__main__':
             if word in normal_words:
                 valid_nearest.append(word)
                 valid_nearest_mat.append(vec)
-            if valid_guess(word):
+            if valid_guess(word) and not skip_db:
                 cursor.execute("""INSERT INTO guesses values (?, ?)""", (word, pickle.dumps(vec)))
             else:
                 eliminated += 1
@@ -63,7 +70,7 @@ if __name__ == '__main__':
                 connection.commit()
     connection.commit()
     connection.close()
-    print("invalid:", eliminated)
+    print("not added to db:", eliminated)
     valid_nearest_mat = np.array(valid_nearest_mat)
     print("valid nearest shape:", valid_nearest_mat.shape)
     with open('data/valid_nearest.dat', 'wb') as f:
