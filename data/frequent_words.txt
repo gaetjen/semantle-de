@@ -239,7 +239,7 @@ Unternehmen
 nächste
 erklären
 klar
-Doktor
+Doktor#
 Paar
 Recht
 wegen
@@ -272,7 +272,7 @@ hinter
 besonders
 tragen
 kaum
-Freund
+Freund#
 fünf
 scheinen
 Stunde
@@ -281,7 +281,7 @@ gern
 überhaupt
 bestimmt
 sowie
-Professor
+Professor#
 darüber
 deren
 schaffen
@@ -545,7 +545,7 @@ zudem
 Bank
 ab
 persönlich
-Präsident
+Präsident#
 holen
 Junge
 sogenannt
@@ -555,7 +555,7 @@ gewiss
 innerhalb
 Kunst
 Lage
-Schüler
+Schüler#
 gesamt
 Druck
 verschwinden
@@ -575,7 +575,7 @@ laut
 Fuß
 Daten
 Krieg
-Gast
+Gast#
 Aussage
 Gesetz
 planen
@@ -619,9 +619,9 @@ am
 erhöhen
 sorgen
 Erfahrung
-Patient
+Patient#
 Morgen
-Arzt
+Arzt#
 geschehen
 Bayern
 lösen
@@ -638,7 +638,7 @@ derselbe
 wählen
 gleichzeitig
 knapp
-Mitarbeiter
+Mitarbeiter#
 übernehmen
 Glück
 normal
@@ -682,7 +682,7 @@ schlafen
 statt
 Werk
 grün
-Bürger
+Bürger#
 dienen
 echt
 Firma
@@ -694,7 +694,7 @@ Mittel
 Folie
 leisten
 Tochter
-Lehrer
+Lehrer#
 passen
 beobachten
 Einführung
@@ -722,7 +722,7 @@ Angebot
 Projekt
 verkaufen
 reagieren
-Autor
+Autor#
 kriegen
 zirka
 Europäische Union
@@ -788,7 +788,7 @@ vorne
 rechte
 Meinung
 drehen
-Künstler
+Künstler#
 aktiv
 Versuch
 somit
@@ -821,7 +821,7 @@ zentral
 Ebene
 besuchen
 gestern
-Spieler
+Spieler#
 absolut
 fliegen
 Hund
@@ -974,7 +974,7 @@ geraten
 toll
 schweigen
 Schwester
-Chef
+Chef#
 greifen
 Risiko
 schwach
@@ -998,11 +998,11 @@ aufhören
 schützen
 diskutieren
 Ferse
-Sprecher
+Sprecher#
 produzieren
 Kritik
 erneut
-Trainer
+Trainer#
 April
 melden
 wiederum
@@ -1016,7 +1016,7 @@ Baum
 lauten
 Diskussion
 hingegen
-Student
+Student#
 Bevölkerung
 Finger
 Grüne
@@ -1086,7 +1086,7 @@ her
 wechseln
 einstellen
 Theater
-König
+König#
 Ohr
 fördern
 elektrisch
@@ -1139,7 +1139,7 @@ Substanz
 Zeitpunkt
 wenigstens
 Gang
-Politiker
+Politiker#
 Unterstützung
 hey
 brechen
@@ -1171,7 +1171,7 @@ eindeutig
 heraus
 falls
 erstmals
-Partner
+Partner#
 nachdenken
 Ausbildung
 Wagen
@@ -1241,11 +1241,11 @@ linear
 ausmachen
 eintreten
 kritisch
-äh
+äh --> April
 Wochenende
 Donnerstag
 Saison
-Forscher
+Forscher#
 gründen
 offensichtlich
 Teilchen
@@ -1266,14 +1266,14 @@ Welle
 Nase
 vertreten
 dicht
-Soldat
+Soldat#
 bereit
 Technik
 Blatt
 prägen
 sozusagen
 November
-Schweizer
+Schweizer#
 gesund
 danken
 Fußball
@@ -1282,7 +1282,7 @@ einladen
 Kilogramm
 warm
 Integration
-Nachbar
+Nachbar#
 maximal
 Figur
 Freude
@@ -1302,7 +1302,7 @@ Kaffee
 Leid
 still
 leiten
-Vertreter
+Vertreter#
 Statistik
 Heimat
 Milliliter
@@ -1317,7 +1317,7 @@ vielmehr
 konzentrieren
 landen
 See
-Tourist
+Tourist#
 Konzentration
 verbieten
 krank
@@ -1368,7 +1368,7 @@ riechen
 außerhalb
 begleiten
 Publikum
-Besucher
+Besucher#
 Wachstum
 aufgeben
 stolz
@@ -1409,7 +1409,7 @@ Investition
 Lust
 prüfen
 anlegen
-Zuschauer
+Zuschauer#
 hell
 mitten
 zufolge
@@ -1479,7 +1479,7 @@ Krise
 Strategie
 Debatte
 davor
-Journalist
+Journalist#
 kochen
 zurückgehen
 Schmerz
@@ -1521,7 +1521,7 @@ zufrieden
 reißen
 dahin
 solange
-Wissenschaftler
+Wissenschaftler#
 Kommunikation
 Steuer
 angeblich
@@ -1531,8 +1531,8 @@ Flughafen
 Krankenhaus
 wenden
 türkisch
-Gegner
-Leser
+Gegner#
+Leser#
 Volkswirtschaftslehre
 Handel
 Kenntnis
@@ -1547,13 +1547,13 @@ Juli
 Signal
 kontrollieren
 sowieso
-Bauer
+Bauer#
 Kurs
 einst
 Service
 sprachlich
 bisherig
-Fahrer
+Fahrer#
 traditionell
 weinen
 genießen
@@ -1599,7 +1599,7 @@ Herbst
 Ausstellung
 Bau
 Keller
-Bürgermeister
+Bürgermeister#
 entlang
 Flasche
 wunderbar
@@ -1699,11 +1699,11 @@ Frieden
 Verlauf
 Potenzial
 Verlag
-Ministerpräsident
+Ministerpräsident#
 Vogel
 beschränken
 Branche
-Schauspieler
+Schauspieler#
 vorschlagen
 beinahe
 jährlich
@@ -1719,14 +1719,14 @@ bedingen
 Gestalt
 zukommen
 ablaufen
-Minister
+Minister#
 Fahrzeug
 fließen
 gemäß
 Vorwurf
 erforderlich
 Haltung
-Schriftsteller
+Schriftsteller#
 Stimmung
 zufällig
 enorm
@@ -1740,15 +1740,15 @@ Auflage
 billig
 dünn
 achten
-Amerikaner
+Amerikaner#
 Anbieter
 Industrie
 Spanien
 ab
-Jude
+Jude#
 Vorgang
 ausgeben
-Meister
+Meister#
 umdrehen
 weitgehend
 traurig
@@ -1805,7 +1805,7 @@ Restaurant
 wandern
 Tasche
 vornehmen
-Beamte
+Beamte#
 orientieren
 schmal
 Streit
@@ -1853,7 +1853,7 @@ erweisen
 Gesundheit
 zutreffen
 aufführen
-Kandidat
+Kandidat#
 profitieren
 Rechnung
 Übergang
@@ -1886,7 +1886,7 @@ voneinander
 auswählen
 befragen
 rücken
-Anwalt
+Anwalt#
 dahinter
 Stärke
 Ironie
@@ -1919,7 +1919,7 @@ automatisch
 Physik
 Erkrankung
 spanisch
-Teilnehmer
+Teilnehmer#
 Veranstaltung
 vorhaben
 verbergen
@@ -1936,7 +1936,7 @@ generell
 Aminosäure
 Marketing
 Phänomen
-Russe
+Russe#
 Brücke
 daneben
 Gewicht
@@ -1974,7 +1974,7 @@ Ladung
 äußerst
 lustig
 potenziell
-Dichter
+Dichter#
 Religion
 religiös
 nackt
@@ -1982,7 +1982,7 @@ Ware
 beruflich
 lokal
 Standard
-Kanzler
+Kanzler#
 nochmal
 auflösen
 aufregen
@@ -2040,7 +2040,7 @@ Lehre
 aufpassen
 Verletzung
 Christlich-Soziale Union
-Direktor
+Direktor#
 enttäuschen
 fangen
 Träne
@@ -2086,7 +2086,7 @@ literarisch
 Bewusstsein
 Stiftung
 Erhöhung
-GmbH
+GmbH# --> April?
 ungewöhnlich
 Fest
 Anforderung
@@ -2100,7 +2100,7 @@ Hunger
 jüdisch
 Umfeld
 allzu
-Graf
+Graf#
 Indien
 lohnen
 optisch
@@ -2173,7 +2173,7 @@ Technologie
 Trennung
 E-Mail
 mitmachen
-Manager
+Manager#
 Oma
 Umfrage
 Operation
@@ -2184,7 +2184,7 @@ nachhaltig
 zusehen
 bevorzugen
 hierzu
-Fischer
+Fischer#
 Ruf
 Überlegung
 Begegnung
@@ -2249,7 +2249,7 @@ zumal
 Kohlenstoffdioxid
 ordentlich
 stoppen
-Bundeskanzler
+Bundeskanzler#
 Rat
 Bewohner
 gewöhnlich
@@ -2285,7 +2285,7 @@ Millimeter
 Freie Demokratische Partei
 Konsument
 Reform
-Richter
+Richter#
 verwandeln
 streiten
 widmen
@@ -2303,14 +2303,14 @@ Wärme
 eventuell
 Gemeinschaft
 kennenlernen
-Unternehmer
+Unternehmer#
 Dienstleistung
 intern
-Investor
+Investor#
 Periode
 schriftlich
 genetisch
-Einwohner
+Einwohner#
 testen
 umgeben
 lebendig
@@ -2321,10 +2321,10 @@ Zeile
 belasten
 braun
 Ehe
-Passagier
+Passagier#
 Kindheit
 Ungarn
-Verbraucher
+Verbraucher#
 Vielfalt
 Entschuldigung
 flüstern
@@ -2348,7 +2348,7 @@ einschränken
 Kette
 Säure
 Strafe
-Franzose
+Franzose#
 Konzert
 Kontext
 Transport
@@ -2373,7 +2373,7 @@ Weltmeisterschaft
 zurückführen
 Bruttoinlandsprodukt
 friedlich
-Verkäufer
+Verkäufer#
 vernünftig
 Matrix
 abholen
@@ -2403,7 +2403,7 @@ vergleichbar
 anhören
 Tonne
 verleihen
-Arbeiter
+Arbeiter#
 Bord
 entspannen
 kürzlich
@@ -2411,7 +2411,7 @@ beurteilen
 raten
 Schnitt
 wertvoll
-Erzähler
+Erzähler#
 Gold
 umstritten
 aufsteigen
@@ -2446,7 +2446,7 @@ Geschlecht
 attraktiv
 Aussicht
 Betriebswirtschaftslehre
-Held
+Held#
 sechzig
 Base
 Bilanz
@@ -2476,7 +2476,7 @@ illegal
 Sand
 umbringen
 Fraktion
-Gesellschafter
+Gesellschafter#
 Schweden
 Verbesserung
 worauf
@@ -2501,7 +2501,7 @@ Respekt
 gefährden
 Spektrum
 vergeben
-Weber
+Weber#
 effektiv
 Eingang
 Erbe
@@ -2517,7 +2517,7 @@ Ast
 ausüben
 jenseits
 unterliegen
-Wähler
+Wähler#
 willkommen
 Gedächtnis
 gelegentlich
@@ -2532,7 +2532,7 @@ aushalten
 bedrohen
 keineswegs
 klug
-Arbeitnehmer
+Arbeitnehmer#
 beugen
 einbringen
 Materie
@@ -2562,7 +2562,7 @@ Zucker
 Austausch
 gleichen
 Station
-Kaiser
+Kaiser#
 sperren
 Sportler
 Differenz
@@ -2575,8 +2575,8 @@ Versorgung
 Kommentar
 kontinuierlich
 Radio
-Münchner
-Musiker
+Münchner#
+Musiker#
 wecken
 ansteigen
 Rückkehr
@@ -2596,7 +2596,7 @@ Staatsanwaltschaft
 Freizeit
 Geschenk
 hübsch
-Moslem
+Moslem#
 spontan
 dorthin
 Frühstück
@@ -2610,7 +2610,7 @@ psychisch
 Salz
 siebzig
 versichern
-Brite
+Brite#
 erkennbar
 namens
 Achse
@@ -2620,7 +2620,7 @@ Tee
 Zeuge
 Aufwand
 Kooperation
-Kritiker
+Kritiker#
 Tal
 derartig
 Erste
@@ -2641,12 +2641,12 @@ grob
 Protest
 Tour
 Überblick
-Geschäftsführer
+Geschäftsführer#
 Griff
 küssen
 Liter
 Subjekt
-Außenminister
+Außenminister#
 Faser
 Schatz
 sekundär
@@ -2666,12 +2666,12 @@ derart
 kreativ
 einziehen
 Ausmaß
-Feind
+Feind#
 verbrennen
 Vorstand
 Atem
 Distanz
-Händler
+Händler#
 hassen
 Muster
 ausführlich
@@ -2683,7 +2683,7 @@ einschlafen
 Flüchtlingskrise
 Ärger
 allmählich
-Führer
+Führer#
 Vitamin
 Abschied
 Hafen
@@ -2708,9 +2708,9 @@ nachher
 Wut
 aufrufen
 quer
-Kapitän
+Kapitän#
 zusammenhängen
-Ausländer
+Ausländer#
 Beschäftigte
 Bundesliga
 nähern
@@ -2730,7 +2730,7 @@ Sprung
 vorerst
 experimentell
 kühl
-Maler
+Maler#
 Opposition
 Saal
 syrisch
@@ -2749,14 +2749,14 @@ vermeintlich
 zusammenarbeiten
 Parameter
 steil
-Europäer
+Europäer#
 heimisch
 interkulturell
 Stille
 Bildschirm
 erwischen
 Proton
-Schweizer
+Schweizer#
 unheimlich
 magnetisch
 versehen
@@ -2780,7 +2780,7 @@ arbeitslos
 Auswertung
 Gras
 logisch
-Nachfolger
+Nachfolger#
 verzweifeln
 bewältigen
 Emotion
@@ -2794,7 +2794,7 @@ Widerspruch
 dastehen
 nervös
 regieren
-Regisseur
+Regisseur#
 süß
 Villa
 weh
@@ -2807,7 +2807,7 @@ hervorragend
 umfangreich
 Europäische Zentralbank
 Infrastruktur
-Konkurrent
+Konkurrent#
 Party
 Wellenlänge
 Anhänger
@@ -2827,7 +2827,7 @@ Aufklärung
 auskommen
 denkbar
 Fernseher
-Italiener
+Italiener#
 mangeln
 Schönheit
 verarbeiten
@@ -2838,7 +2838,7 @@ einsteigen
 Tibet
 Webseite
 widersprechen
-Besitzer
+Besitzer#
 japanisch
 ärgern
 Persönlichkeit
@@ -2892,7 +2892,7 @@ hemmen
 Intelligenz
 senkrecht
 dringen
-Migrant
+Migrant#
 probieren
 Turnier
 verschaffen
@@ -2913,7 +2913,7 @@ verständlich
 Wahlkampf
 flüssig
 Sturm
-Akteur
+Akteur#
 entnehmen
 räumen
 konsequent
@@ -2939,7 +2939,7 @@ verknüpfen
 Vorgehen
 drüben
 erschießen
-Nutzer
+Nutzer#
 Stabilität
 verringern
 juristisch
@@ -3028,14 +3028,14 @@ Intensität
 korrigieren
 Linke
 neunzig
-Sänger
+Sänger#
 Symptom
 einig
 Auffassung
 herum
 Kunstwerk
 Ministerium
-Österreicher
+Österreicher#
 stellvertretend
 Ursprung
 mündlich
@@ -3064,7 +3064,7 @@ These
 begehen
 Besitz
 etliche
-Gläubiger
+Gläubiger#
 mitunter
 rutschen
 unzählig
@@ -3082,7 +3082,7 @@ diskret
 erstaunen
 Gymnasium
 isolieren
-Mörder
+Mörder#
 erwachsen
 ökologisch
 problematisch
@@ -3098,7 +3098,7 @@ Stichwort
 Tempo
 wunderschön
 grüßen
-Weltmeister
+Weltmeister#
 Duft
 hinweg
 aufzeigen
@@ -3256,7 +3256,7 @@ lagern
 Veröffentlichung
 Bescheid
 versagen
-Innenminister
+Innenminister#
 klinisch
 wiegen
 Eingriff
@@ -3279,7 +3279,7 @@ schaden
 stumm
 tja
 Zaun
-Empfänger
+Empfänger#
 Hochzeit
 maßgeblich
 Quartal
@@ -3298,7 +3298,7 @@ untereinander
 unterhalb
 verdeutlichen
 Ertrag
-Finanzminister
+Finanzminister#
 Vormittag
 achtzig
 dynamisch
@@ -3315,7 +3315,7 @@ spazieren
 verweigern
 Zahlung
 argumentieren
-Athlet
+Athlet#
 beißen
 harmonisch
 Kneipe
@@ -3324,7 +3324,7 @@ Begeisterung
 fix
 Frucht
 Kanada
-Philosoph
+Philosoph#
 Übersicht
 weitergeben
 Zinssatz
@@ -3347,7 +3347,7 @@ Depression
 kündigen
 strukturell
 Anzeige
-Chinese
+Chinese#
 festnehmen
 fortfahren
 realistisch
@@ -3421,12 +3421,12 @@ Premier
 Zeichnung
 agieren
 Befehl
-Christ
+Christ#
 hi
 schleppen
 Treffer
-Helfer
-Vizepräsident
+Helfer#
+Vizepräsident#
 Haustür
 Landesregierung
 aggressiv
@@ -3448,7 +3448,7 @@ Bezirk
 Bogen
 Entdeckung
 Ferien
-General
+General#
 Messe
 scheiden
 schlucken
@@ -3457,7 +3457,7 @@ zurücklegen
 anordnen
 beibringen
 bevorstehen
-Chemiker
+Chemiker#
 Erscheinung
 herunter
 hinterher
@@ -3481,7 +3481,7 @@ Unglück
 verlegen
 Eröffnung
 Fragestellung
-Grieche
+Grieche#
 industriell
 konfrontieren
 Sex
@@ -3502,7 +3502,7 @@ präzise
 Wahnsinn
 Anruf
 feststehen
-Sieger
+Sieger#
 Unterkunft
 Verknüpfung
 anfühlen
@@ -3526,7 +3526,7 @@ langjährig
 Maximum
 Militär
 oftmals
-Papst
+Papst#
 Profi
 Aufregung
 aufsagen
@@ -3540,7 +3540,7 @@ Embryo
 Muskulatur
 Rückstand
 entfalten
-Ermittler
+Ermittler#
 hässlich
 Hypothese
 unverändert
@@ -3556,7 +3556,7 @@ akademisch
 aufwendig
 einschätzen
 Kapazität
-Regierungschef
+Regierungschef#
 regnen
 Rohstoff
 beten
@@ -3565,14 +3565,14 @@ hocken
 Informationssystem
 liberal
 musikalisch
-Pfarrer
+Pfarrer#
 Provinz
 Trauer
 Aufsichtsrat
 Gerücht
 kriechen
 Sofa
-Urlauber
+Urlauber#
 abwenden
 Aufführung
 Huhn
@@ -3590,7 +3590,7 @@ variabel
 zuführen
 Akademie
 Ausgangspunkt
-Berater
+Berater#
 erregen
 letztendlich
 proportional
@@ -3598,7 +3598,7 @@ erschöpfen
 Frist
 gegenüberstehen
 operativ
-Proband
+Proband#
 Qualifikation
 Schlange
 schräg
@@ -3621,7 +3621,7 @@ einmalig
 irgend
 Kreislauf
 Lösungsmittel
-PC
+PC# --> April?
 Protokoll
 unsichtbar
 verdrängen
@@ -3670,7 +3670,7 @@ Beurteilung
 erbringen
 folglich
 Hörer
-Prinz
+Prinz#
 Radius
 Schaf
 schuldig
@@ -3678,7 +3678,7 @@ Tagebuch
 zielen
 elementar
 nebenbei
-Ökonom
+Ökonom#
 Versprechen
 Werkzeug
 Adjektiv
@@ -3706,7 +3706,7 @@ ringen
 spektakulär
 stabilisieren
 Strich
-Wirt
+Wirt#
 Addition
 besagen
 Geduld
@@ -3735,7 +3735,7 @@ abseits
 asymmetrisch
 bescheiden
 entfallen
-FIFA
+FIFA# --> April
 Hemmung
 Schlafzimmer
 Tragödie
@@ -3744,7 +3744,7 @@ achtzehn
 Chaos
 Krone
 reiben
-Reporter
+Reporter#
 Schluck
 Schock
 aufschreiben
@@ -3766,7 +3766,7 @@ passiv
 Rauch
 stinken
 tschüss
-Vorgänger
+Vorgänger#
 anstarren
 detailliert
 Fremdsprache
@@ -3783,13 +3783,13 @@ Gemälde
 Heim
 heranziehen
 Image
-Koch
+Koch#
 Stadtteil
 Träger
 verschärfen
 Zunahme
 annähern
-Baron
+Baron#
 Eigentum
 gründlich
 Sachsen-Anhalt
@@ -3821,7 +3821,7 @@ außerordentlich
 Empfang
 minimal
 Nacken
-Republikaner
+Republikaner#
 Rhythmus
 unerwartet
 Unterschrift
@@ -3829,8 +3829,8 @@ anfallen
 Ausfall
 beantragen
 daheim
-Offizier
-Protagonist
+Offizier#
+Protagonist#
 quälen
 Strömung
 überfordern
@@ -3839,17 +3839,17 @@ Gliederung
 Kartoffel
 schleichen
 zulegen
-Aktionär
+Aktionär#
 auseinandersetzen
 bestrafen
 einlegen
 erlernen
 Friedhof
 materiell
-Produzent
+Produzent#
 Transparenz
-Asylbewerber
-Eigentümer
+Asylbewerber#
+Eigentümer#
 Fabrik
 mutig
 Stolz
@@ -3872,12 +3872,12 @@ schmutzig
 überziehen
 zumeist
 gemütlich
-Spanier
+Spanier#
 Zeitalter
 ausstrecken
 blass
 irritieren
-Jurist
+Jurist#
 Mission
 Mitochondrium
 Neuron
@@ -3902,12 +3902,12 @@ Becken
 kreuzen
 zart
 Zwang
-Engländer
+Engländer#
 Münze
 Nachrichtenagentur
 seitlich
 Abendessen
-Beobachter
+Beobachter#
 Durchmesser
 Oper
 satt
@@ -3944,7 +3944,7 @@ Kristall
 partiell
 Schale
 scheißen
-Schiedsrichter
+Schiedsrichter#
 Tanz
 tippen
 Universum
@@ -3991,7 +3991,7 @@ thermisch
 vermindern
 verwandt
 Beschleunigung
-Bundespräsident
+Bundespräsident#
 Erfindung
 Fliege
 Immunsystem
@@ -4004,7 +4004,7 @@ Anwesenheit
 Bube
 Geldpolitik
 gewissermaßen
-Ingenieur
+Ingenieur#
 Manuskript
 Nacherfüllung
 sachlich
@@ -4018,8 +4018,8 @@ außergewöhnlich
 Baustelle
 Index
 Kasten
-Kölner
-Pariser
+Kölner#
+Pariser#
 schimpfen
 Sicherung
 Steigung
@@ -4054,9 +4054,9 @@ anbringen
 entgehen
 Fortsetzung
 lauter
-Mediziner
+Mediziner#
 Tunnel
-Assistent
+Assistent#
 Differenzierung
 drastisch
 gleichmäßig
@@ -4111,10 +4111,10 @@ verankern
 Zähler
 befriedigen
 beseitigen
-Gründer
+Gründer#
 Orchester
 regulär
-Türke
+Türke#
 ukrainisch
 unterdrücken
 unterteilen
@@ -4185,7 +4185,7 @@ woanders
 ablesen
 anzünden
 ärztlich
-Fürst
+Fürst#
 geschickt
 mittelalterlich
 repräsentieren
@@ -4247,7 +4247,7 @@ herausragen
 inszenieren
 klatschen
 Magazin
-Zuhörer
+Zuhörer#
 beschweren
 entgegenkommen
 Hast
@@ -4260,13 +4260,13 @@ Prävention
 schrumpfen
 vernehmen
 erstrecken
-Genosse
-öh
-Thüringer
+Genosse#
+öh --> April?
+Thüringer#
 vortragen
 Hirn
 Pfeil
-Schuldner
+Schuldner#
 Überprüfung
 Verzweiflung
 vorig
@@ -4292,12 +4292,12 @@ kriminell
 verfallen
 vorzeitig
 ansiedeln
-Bewerber
+Bewerber#
 Breite
 einsehen
 Epoche
 Explosion
-Idiot
+Idiot#
 Kulisse
 Lieferung
 nachvollziehbar
@@ -4332,7 +4332,7 @@ Haft
 Malerei
 Marktwirtschaft
 Maske
-mmh
+mmh --> April
 Präsentation
 unerträglich
 zerreißen
@@ -4370,7 +4370,7 @@ voraussichtlich
 würdigen
 zurückweisen
 Abfall
-Demokrat
+Demokrat#
 Katalysator
 Piste
 Senat
@@ -4385,14 +4385,14 @@ Nachwuchs
 plädieren
 trösten
 Ungleichheit
-Verteidiger
+Verteidiger#
 Center
 Halt
 Handwerk
 humanitär
 Intervall
 naiv
-Rentner
+Rentner#
 Skala
 sogleich
 Substantiv
@@ -4421,7 +4421,7 @@ Anleihe
 auswärtig
 elastisch
 entkommen
-Herausgeber
+Herausgeber#
 Kinn
 nahelegen
 Naturwissenschaft
@@ -4431,7 +4431,7 @@ Versuchsperson
 Wanderung
 Zeigefinger
 zwischendurch
-Autofahrer
+Autofahrer#
 benehmen
 Einzelfall
 gängig
@@ -4448,7 +4448,7 @@ Aufsatz
 Brandenburg
 Diagramm
 Erleichterung
-Historiker
+Historiker#
 innovativ
 kollektiv
 nüchtern
@@ -4475,7 +4475,7 @@ sowjetisch
 verbindlich
 anstelle
 beleidigen
-Diener
+Diener#
 konventionell
 Neutron
 organisatorisch
@@ -4495,7 +4495,7 @@ Premiere
 Schadenersatz
 Schrei
 Schwangerschaft
-Staatsanwalt
+Staatsanwalt#
 Transfer
 verkürzen
 vorbeugen
@@ -4514,7 +4514,7 @@ naturwissenschaftlich
 Ökonomie
 Festival
 hinlegen
-Landwirt
+Landwirt#
 Laptop
 läuten
 Neugier
@@ -4532,7 +4532,7 @@ gleichwohl
 Kabine
 pädagogisch
 Schokolade
-Sekretär
+Sekretär#
 signalisieren
 übernachten
 veranstalten
@@ -4567,12 +4567,12 @@ knüpfen
 loslassen
 nachlassen
 nebenan
-TV
+TV --> April
 bestens
 Dusche
 Etage
 Fachhochschule
-Fotograf
+Fotograf#
 gehörlos
 Klimawandel
 Mythos
@@ -4602,9 +4602,9 @@ Aufwendung
 ausdenken
 fähig
 füttern
-Gesetzgeber
+Gesetzgeber#
 koppeln
-Senior
+Senior#
 Studio
 Verbreitung
 addieren
@@ -4622,7 +4622,7 @@ Atomkern
 ausgesprochen
 ausrufen
 bewaffnen
-Enkel
+Enkel#
 Legende
 Pflege
 präsent
@@ -4635,12 +4635,12 @@ evangelisch
 Illusion
 kreisen
 nachdenklich
-Sozialdemokrat
+Sozialdemokrat#
 strukturieren
 Allianz
 Arbeitslosenquote
 backen
-Benutzer
+Benutzer#
 Ehepaar
 Ensemble
 Handschrift
@@ -4654,7 +4654,7 @@ diplomatisch
 Effizienz
 färben
 Gutachten
-Kämpfer
+Kämpfer#
 Klo
 knacken
 Knall
@@ -4668,7 +4668,7 @@ Beleg
 Blase
 Energiewirtschaft
 Halbfinale
-Oberbürgermeister
+Oberbürgermeister#
 Rezeption
 Tennis
 Entwicklungsland
@@ -4695,11 +4695,11 @@ beweglich
 Fachbereich
 fraglich
 hinsetzen
-Moderator
+Moderator#
 Mütze
 nächtlich
 Realisierung
-Rechtsanwalt
+Rechtsanwalt#
 Rekord
 wiedergeben
 ausdehnen
@@ -4724,21 +4724,21 @@ Erregung
 Gruß
 konstruieren
 Korb
-Pole
+Pole#
 Schoß
-Veranstalter
+Veranstalter#
 Verarbeitung
 zurückbleiben
 zusammenbrechen
 Attacke
 ausnutzen
-Demonstrant
+Demonstrant#
 Ehefrau
 höflich
 Insekt
 Konjunktur
 spannen
-Sponsor
+Sponsor#
 sprengen
 tagsüber
 zerren
@@ -4749,7 +4749,7 @@ Forum
 Geschäftsjahr
 Mitleid
 muslimisch
-Spezialist
+Spezialist#
 üblicherweise
 verhängen
 verstummen
@@ -4777,7 +4777,7 @@ Fieber
 gießen
 Hauptsache
 kassieren
-Komponist
+Komponist#
 Korrektur
 monatlich
 sächsisch
@@ -4801,7 +4801,7 @@ Toleranz
 unnötig
 Verhaltensweise
 Wachstumsrate
-Begleiter
+Begleiter#
 einhergehen
 einholen
 Fund
@@ -4829,14 +4829,14 @@ Dose
 erwecken
 Geheimdienst
 mustern
-NATO
+NATO --> April
 Symmetrie
 ungleich
 verlässlich
 abschalten
 blättern
 brav
-Cousin
+Cousin#
 ergehen
 Gesang
 Hilfsmittel
@@ -4859,14 +4859,14 @@ faul
 Fell
 mitspielen
 schwören
-Syrer
+Syrer#
 verzeihen
 anstoßen
 Einkauf
 erlassen
 Erstellung
 Fass
-Kulturstaatsminister
+Kulturstaatsminister#
 Landsmann
 Laufzeit
 Nahrungsmittel
@@ -4883,7 +4883,7 @@ Größenordnung
 hinfahren
 Metropole
 östlich
-Reiter
+Reiter#
 spinnen
 Trinken
 verkehren
@@ -4898,7 +4898,7 @@ Halbzeit
 Irrtum
 Isotop
 Kissen
-Römer
+Römer#
 Specht
 Übereinstimmung
 unschuldig
@@ -4932,10 +4932,10 @@ hindeuten
 langweilen
 magisch
 Modul
-Priester
+Priester#
 Rückzug
 Stockwerk
-Tiroler
+Tiroler#
 zuweilen
 Abnahme
 Arbeitszeit
@@ -4957,7 +4957,7 @@ Umzug
 uralt
 zusammenhalten
 anfänglich
-Anwohner
+Anwohner#
 Ausblick
 Butter
 Diskriminierung
@@ -4973,7 +4973,7 @@ Zürcher
 Beachtung
 Befreiung
 bescheren
-Botschafter
+Botschafter#
 Delegierte
 entgegen
 Grundeinkommen
@@ -4982,7 +4982,7 @@ Neigung
 Obst
 Ofen
 offenbaren
-Redakteur
+Redakteur#
 Sehne
 Spalt
 vertikal
@@ -4995,7 +4995,7 @@ Mindestlohn
 Missbrauch
 Nationalpark
 Offenheit
-Premierminister
+Premierminister#
 wörtlich
 Fassung
 fertigen
