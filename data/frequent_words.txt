@@ -1241,7 +1241,7 @@ linear
 ausmachen
 eintreten
 kritisch
-äh --> April
+äh
 Wochenende
 Donnerstag
 Saison
@@ -2086,7 +2086,7 @@ literarisch
 Bewusstsein
 Stiftung
 Erhöhung
-GmbH# --> April?
+GmbH
 ungewöhnlich
 Fest
 Anforderung
@@ -3621,7 +3621,7 @@ einmalig
 irgend
 Kreislauf
 Lösungsmittel
-PC# --> April?
+PC
 Protokoll
 unsichtbar
 verdrängen
@@ -3735,7 +3735,7 @@ abseits
 asymmetrisch
 bescheiden
 entfallen
-FIFA# --> April
+FIFA
 Hemmung
 Schlafzimmer
 Tragödie
@@ -4261,7 +4261,7 @@ schrumpfen
 vernehmen
 erstrecken
 Genosse#
-öh --> April?
+öh
 Thüringer#
 vortragen
 Hirn
@@ -4332,7 +4332,7 @@ Haft
 Malerei
 Marktwirtschaft
 Maske
-mmh --> April
+mmh
 Präsentation
 unerträglich
 zerreißen
@@ -4567,7 +4567,7 @@ knüpfen
 loslassen
 nachlassen
 nebenan
-TV --> April
+TV
 bestens
 Dusche
 Etage
@@ -4829,7 +4829,7 @@ Dose
 erwecken
 Geheimdienst
 mustern
-NATO --> April
+NATO
 Symmetrie
 ungleich
 verlässlich
